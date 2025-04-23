@@ -1,0 +1,182 @@
+/*global styling*/
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a{
+  text-decoration: none;
+  font-size: large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: green;
+}
+
+/*styling the navbar*/
+.FirstContainer{
+  background-color: aqua;
+  top: 0%;
+  position: sticky;
+  z-index: 1000;
+  color: green;
+}
+
+.SecondContainer{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 9vh;
+  margin: auto;
+}
+
+nav ol{
+  justify-content: space-between;
+  display: flex;
+  flex: 1 1 26rem;
+}
+ li{
+  list-style: none;
+ }
+
+ h1{
+  flex: 2 2 26rem;
+ }
+
+ /*This is were i design the homepage*/
+ .Sec{
+  background: url("pexel\ men.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+ }
+
+ .Mac{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 93vh;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+ 
+
+  button{
+  padding: 1rem 4rem;
+  border-radius: 4px;
+  border: none;
+  background-color: aqua;
+  color: green;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: large;
+  font-weight: bolder;
+  transform: translate(-50%,-50%);
+  cursor: pointer;
+}
+
+button:hover{
+  color: aqua;
+  background-color: green;
+}
+
+.Sec .Mac h1{
+  color: white;
+  font-size: large;
+ }
+
+h1{
+  padding: 4rem;
+}
+
+.sec{
+  background: url("home.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.mac{
+  min-height: 93vh;
+}
+
+/*styling */
+footer{
+  background-color: aqua;
+}
+ .FooterChild{
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+ }
+
+ .box{
+  width: 19%;
+  min-height: 20vh;
+  flex: 1 1 20rem;
+ }
+
+
+ .FChild1{
+  flex-grow: 2;
+  flex-basis: 30rem;
+ }
+
+ .FChild1 h1{
+  padding: 10rem;
+  color: rgb(197, 66, 5);
+ }
+
+ .FChild2, .FChild3, .FChild4{
+  padding: 4rem;
+ }
+
+ .FChild4 ol{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 4rem;
+  flex: 1 1 26rem;
+ }
+
+ .FChild2  ul, .FChild3 ul{
+  line-height: 2rem;
+  list-style: none;
+}
+
+.FChild4 ol li{
+ list-style: none;
+}
+
+.highlight {
+  color: brown;
+}
+
+section {
+  padding: 20px;
+  flex-wrap: wrap;
+  flex: 1 1 26rem;
+  color: blue;
+}
+h2{
+  color: green;
+}
+

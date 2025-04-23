@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms</title>
+  <link rel="stylesheet" href="form.css">
+</head>
+<body>
+  <form action="action_page.php" method="post">
+    <h1>This is the Contact page</h1>
+    <div>
+    <label for="Fname">First Name:</label>
+    <input type="text" id="Fname" name="fname" placeholder="Michael" required> 
+  </div>
+  <br>
+
+  <div>
+    <label for="email">Email:</label>
+    <input type="text" id="Fname" name="email" placeholder="Botchwaymichael42@gmail.com" max-length="30" required> 
+  </div>
+  <br>
+  <br>
+  <div>
+    <label for="message">Message*</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+  </div>
+    <button type="submit">Submit</button> 
+  </form>
+
+  <script src="form.js"></script>
+  <p id="demo"></p>
+</body>
+</html>
